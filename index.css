@@ -1,325 +1,310 @@
-   /* Variables */
-   :root {
-       --font-family: "Roboto", sans-serf;
-       --normal-font: 400;
-       --bold-font: 700;
-       --bolder-font: 900;
-       --bg-color: #fcfcfc;
-       --primary-color: #4756df;
-       --secondary-color: #ff7235;
-       --primary-shadow: #8b8eaf;
-       --secondary-shadow: #a17a69;
-       --bottom-margin: 0.5rem;
-       --bottom-margin-2: 1rem;
-       --line-height: 1.7rem;
-       --transition: 0.3s;
-   }
+html {
+    scroll-behavior: smooth;
+}
 
-   /* Variables end */
+/* CSS Reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
-   html {
-       scroll-behavior: smooth;
-   }
+/* Body */
+body {
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
 
-   /* CSS Reset */
-   * {
-       padding: 0;
-       margin: 0;
-   }
+/* Utility Classes */
+.purple {
+    color: blueviolet;
+}
 
-   /* Body */
-   body {
-       background-color: rgb(0, 0, 33);
-       color: white;
-       font-family: 'Poppins', sans-serif;
-   }
+.vertical-title {
+    position: relative;
+    top: 2.6em;
+    right: 2em;
+    width: 150px;
+    font-size: 16px;
+}
 
-   /* Utility Classes */
-   .purple {
-       color: blueviolet;
-   }
+.vertical-desc {
+    position: relative;
+    top: 4.4em;
+    right: 3em;
+    width: 150px;
+    font-size: 10px;
 
-   .vertical-title {
-       position: relative;
-       top: 2.6em;
-       right: 2em;
-       width: 150px;
-       font-size: 16px;
-   }
+}
 
-   .vertical-desc {
-       position: relative;
-       top: 4.4em;
-       right: 3em;
-       width: 150px;
-       font-size: 10px;
+/* Navbar */
+nav {
 
-   }
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 5em;
+    background-color: rgb(11, 11, 54);
+}
 
-   /* Navbar */
-   nav {
+nav ul {
+    display: flex;
+    justify-content: center;
+}
 
-       display: flex;
-       justify-content: space-around;
-       align-items: center;
-       height: 5em;
-       background-color: rgb(11, 11, 54);
-   }
+nav ul li a {
+    text-decoration: none;
+    color: white
+}
 
-   nav ul {
-       display: flex;
-       justify-content: center;
-   }
+nav ul li a:hover {
+    color: blueviolet;
 
-   nav ul li a {
-       text-decoration: none;
-       color: white
-   }
+}
 
-   nav ul li a:hover {
-       color: blueviolet;
+nav ul li {
+    list-style: none;
+    margin: 0 1rem;
+}
 
-   }
+/* logo */
+.left {
+    font-size: 1.4rem;
+}
 
-   nav ul li {
-       list-style: none;
-       margin: 0 1rem;
-   }
+/* Main */
 
-   /* logo */
-   .left {
-       font-size: 1.4rem;
-   }
+/* First Section */
+.first-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 4.5rem 0;
+}
 
-   /* Main */
+.left-section {
+    font-size: 1.2rem;
+    width: 50%;
+}
 
-   /* First Section */
-   .first-section {
-       display: flex;
-       justify-content: space-around;
-       align-items: center;
-       margin: 4.5rem 0;
-   }
-
-   .left-section {
-       font-size: 1.2rem;
-       width: 50%;
-   }
-
-   .left-section div {
-       width: 90%;
-       margin: auto;
-   }
-
-   .left-section .buttons {
-       margin-top: 2.2em;
-   }
-
-   .left-section .btn {
-       padding: 0.6em;
-       background-color: #1e2167;
-       color: white;
-       border: 2px solid white;
-       border-radius: 10px;
-       font-size: 0.8em;
-       cursor: pointer;
-   }
-
-   /* .left-section button:hover{
-    transition: font-size 1em;
-    
-} */
-   .left-section .btn a {
-       text-decoration: none;
-       color: white
-   }
-
-   #post {
-       font-size: 2rem;
-   }
-
-   .right-section {
-       width: 33%;
-
-   }
-
-   .right-section img {
-       width: 80%;
-       margin: 1rem;
-
-   }
-
-   main hr {
-       border: 0;
-       background: blueviolet;
-       height: 1.2px;
-       margin: 30px 90px;
-   }
-
-   /* Second section */
-   .second-section {
-       max-width: 80vw;
-       height: 70vh;
-       margin: auto;
-
-   }
-
-   .second-section h2 {
-       font-size: 1.9rem;
-   }
-
-   .second-section .horizontal-line {
-       background: white;
-       display: flex;
-       width: 80vw;
-       height: 2px;
-       margin: 4em 0;
-   }
-
-   .second-section .vertical-line {
-       height: 5em;
-       width: 1px;
-       background: white;
-       margin: 0 7.5em;
-   }
-
-   .image-top {
-       width: 33px;
-       position: relative;
-       top: -38px;
-       left: -15px;
-   }
-
-   /* section 3 (projects) */
-   .projects {
-       max-width: 80vw;
-       height: 70vh;
-       margin: auto;
-   }
-
-   .projects h2 {
-       font-size: 1.9rem;
-   }
-
-   .project-container {
-       display: flex;
-       justify-content: center;
-       align-items: center;
-       text-align: center;
-       padding: 0.6rem;
-   }
-
-   .project-container p {
-       margin: 0.4rem;
-   }
-
-   .project-card {
-       background-color: rgb(11, 11, 54);
-       border-radius: 11px;
-       box-shadow: 0 3px 10px var(--primary-color);
-       padding: 1.5rem;
-       margin: 1rem;
-   }
-
-   .project-title {
-       margin-bottom: 1rem;
-       margin-bottom: 0.5rem;
-
-   }
-
-   .project-img {
-       width: 65%;
-       height: 60%;
-   }
-
-   .project-desc {
-       margin-bottom: 0.5rem;
-   }
-
-   .project-link {
-       text-decoration: none;
-       color: white;
-   }
-
-   .project-card .btn {
-       padding: 0.6em;
-       background-color: black;
-       color: white;
-       border: 2px solid white;
-       border-radius: 10px;
-       font-size: 0.8em;
-       cursor: pointer;
-   }
-
-   .view-all{
-    width: 8.6%; 
+.left-section div {
+    width: 90%;
     margin: auto;
-   }
-   .view-all-button {
-       display: inline-block;
-       padding: 10px 20px;
-       background-color: #337ab7;
-       color: #fff;
-       text-decoration: none;
-       border-radius: 5px;
-       font-weight: bold;
-       transition: background-color 0.3s ease;
-   }
-   .view-all-button:hover {
+}
+
+.left-section .buttons {
+    margin-top: 2.2em;
+}
+
+.left-section .btn {
+    padding: 0.6em;
+    background-color: #1e2167;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: 0.8em;
+    cursor: pointer;
+}
+
+.left-section .btn a {
+    text-decoration: none;
+    color: white
+}
+
+#post {
+    font-size: 2rem;
+}
+
+.right-section {
+    width: 33%;
+
+}
+
+.right-section img {
+    width: 80%;
+    margin: 1rem;
+
+}
+
+main hr {
+    border: 0;
+    background: blueviolet;
+    height: 1.2px;
+    margin: 30px 90px;
+}
+
+/* Skills section */
+.skills {
+    max-width: 75rem;
+    margin: auto;
+    text-align: center;
+    margin-top: 1.2rem;
+}
+
+.skills h2 {
+    text-align: left;
+    margin-bottom: 1rem;
+    font-size: 1.9rem;
+}
+
+.skills-container img {
+    padding: 1.25rem;
+}
+
+.icon {
+    width: 11.875rem;
+    height: 11.25rem;
+}
+
+.icon-card {
+    background-color: #fff;
+    border-radius: 11px;
+    box-shadow: 0 3px 10px #a17a69;
+    padding: 20px;
+    margin: 10px;
+}
+
+
+/* section 3 (projects) */
+.projects {
+    max-width: 80vw;
+    height: 70vh;
+    margin: auto;
+}
+
+.projects h2 {
+    font-size: 1.9rem;
+}
+
+.project-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0.6rem;
+}
+
+.project-container p {
+    margin: 0.4rem;
+}
+
+.project-card {
+    background-color: rgb(11, 11, 54);
+    border-radius: 11px;
+    box-shadow: 0 3px 10px #fff;
+    padding: 1.5rem;
+    margin: 1rem;
+}
+
+.project-title {
+    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
+
+}
+
+.project-img {
+    width: 65%;
+    height: 60%;
+}
+
+.project-desc {
+    margin-bottom: 0.5rem;
+}
+
+.project-link {
+    text-decoration: none;
+    color: aqua;
+}
+
+.project-link:hover{
+    color: green;
+}
+/* .project-card .btn {
+    padding: 0.6em;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: 0.8em;
+    cursor: pointer;
+} */
+
+.view-all {
+    width: 8.6%;
+    margin: auto;
+}
+
+.view-all-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #337ab7;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.view-all-button:hover {
     background-color: #23527c;
-  }
-    /* Scroll up button */
-    .scroll-up {
-        position: fixed;
-        right: 0.5%;
-        bottom: 1%;
-        cursor: pointer;
-      }
-      
-      .up-arrow {
-        width: 3rem;
-        height: 3rem;
-      }
-   /* Footer */
-   footer {
-       background-color: black;
-       height: fit-content;
-   }
+}
 
-   .footer {
-       display: flex;
-       margin: 0 2.5em;
-       justify-content: space-between;
-       align-items: center;
-   }
+/* Scroll up button */
+.scroll-up {
+    position: fixed;
+    right: 0.5%;
+    bottom: 1%;
+    cursor: pointer;
+}
+.scroll-up img{
+    border-radius: 50%;
+}
+.up-arrow {
+    width: 3rem;
+    height: 3rem;
+}
 
-   footer ul {
-        margin-top: 1rem;
-       display: flex;
-       justify-content: center;
-   }
+/* Footer */
+footer {
+    background-color: black;
 
-   footer ul li a {
-       text-decoration: none;
-       color: white
-   }
+}
 
-   footer ul li a:hover {
-       color: blueviolet;
+.footer {
+    display: flex;
+    margin: 0 2.5em;
+    justify-content: space-between;
+    align-items: center;
+}
 
-   }
+footer ul {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+}
 
-   footer ul li {
-       list-style: none;
-       margin: 0 1rem;
-   }
+footer ul li a {
+    text-decoration: none;
+    color: white
+}
 
-   footer .copyright {
-       text-align: center;
-       margin-top: 2em;
-   }
+footer ul li a:hover {
+    color: blueviolet;
 
-   footer .copyright a {
-       text-decoration: none;
-       color: white
-   }
+}
+
+footer ul li {
+    list-style: none;
+    margin: 0 1rem;
+}
+
+footer .copyright {
+    text-align: center;
+    margin-top: 2em;
+}
+
+footer .copyright a {
+    text-decoration: none;
+    color: white
+}
