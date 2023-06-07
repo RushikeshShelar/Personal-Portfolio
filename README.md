@@ -24,7 +24,12 @@ You can access my portfolio website by clicking [here](https://rushikeshshelar.g
 - Easy to understand and modify codebase
 - Regular updates to reflect latest achievements and skills
 
+## Tools Used
 
+Below are are list of tools used, and the precise things they were used for:
+
+- [Icon8](https://icons8.com/) for animated icons and skills icons.
+- [Animate CSS](https://animate.style/) for Jane Doe's bio text animation.
 
 ## Getting Started
 
