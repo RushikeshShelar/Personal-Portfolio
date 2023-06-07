@@ -29,7 +29,7 @@ You can access my portfolio website by clicking [here](https://rushikeshshelar.g
 Below are are list of tools used, and the precise things they were used for:
 
 - [Icon8](https://icons8.com/) for animated icons and skills icons.
-- [Animate CSS](https://animate.style/) for Jane Doe's bio text animation.
+- [Animate CSS](https://animate.style/) for bio text animation.
 
 ## Getting Started
 
