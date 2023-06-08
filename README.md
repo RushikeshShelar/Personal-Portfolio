@@ -5,15 +5,11 @@ Showcase your skills, projects, and experience as a Computer Engineering student
 This repository contains the source code for my personal portfolio website. The website is designed to showcase my skills, projects, and experience as a Computer Engineering student.
 You can access my portfolio website by clicking [here](https://rushikeshshelar.github.io/My-Portfolio-Website/).
 
-
 ## Technologies Used 
 
 **Client:** HTML, CSS, Javascript
 
 **Hosted on:** Github Pages
-
-
-
 
 ## Features
 
@@ -30,7 +26,7 @@ Below are are list of tools used, and the precise things they were used for:
 
 - [Icon8](https://icons8.com/) for animated icons and skills icons.
 - [Animate CSS](https://animate.style/) for bio text animation.
-
+ 
 ## Getting Started
 
 To view and run the website locally, follow these steps:
@@ -43,6 +39,13 @@ git clone https://github.com/RushikeshShelar/My-Portfolio-Website.git
 cd My-Portfolio-Website
 ```
 3. Open the index.html file in your preferred web browser.
+
+## License
+
+This project is licensed under the [Apache 2.0](https://choosealicense.com/licenses/apache-2.0/) License. 
+
+Feel free to use and modify the code for your own purposes.
+
 ## Contributing
 
 Contributions are always welcome!
@@ -56,6 +59,7 @@ Please adhere to this project's `code of conduct`.
  - Inspiration and design ideas from various portfolio websites
 - Thanks to the open-source community for their valuable contributions
 - [CodeWithHarry](https://www.youtube.com/@CodeWithHarry)
+-  [Kallyas](https://kallyas.net/)
  - [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
 
 
