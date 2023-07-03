@@ -308,3 +308,83 @@ footer .copyright a {
     text-decoration: none;
     color: white
 }
+
+/* Responsive CSS */
+/* GEnral Media Querie */
+/*@media screen and (max-width: 750px) {
+    .first-section{
+        flex-direction: column-reverse;
+        margin: auto;
+    }
+    .first-section .left-section{
+        width: 75%;
+    }
+    .first-section .right-section{
+        width: 50%;
+    }
+    .first-section .right-section img{
+        width: 100%;
+        margin: 1em 0;
+    }
+    .second-section h2{
+        width: 30%;
+        margin: auto;
+    }
+
+    .projects h2{
+        width: 50%;
+        margin: auto;
+    }
+
+    .project-container{
+        flex-direction: column;
+    }
+
+    .view-all{
+        width: 17.6%;
+    }
+
+    footer{
+        display: none;
+    }
+  
+}*/
+
+/* IPad Air  */
+@media screen and (max-width: 820px){
+    /* first Section */
+    
+    .first-section{
+        margin-left: 1.5em;
+        margin-right: 1.5em;
+    }
+    /* Second Section */
+    .second-section h2{
+        margin-left: 3em;
+        width: fit-content;
+        margin: auto;
+    }
+
+    /*Project Container */
+    .projects h2{
+        width: fit-content;
+        margin: auto;
+    }
+    .project-container{
+        flex-direction: column;
+    }
+    .project-container .project-card{
+        width: 80%;
+        
+    }
+    .view-all{
+        width: 17.6%;
+    }
+    .footer{
+        display: none;
+    }
+    .copyright{
+        display: none;
+    }
+  
+}
