@@ -366,7 +366,7 @@ footer .copyright a {
 @media screen and (max-width: 1023px) and (min-width: 768px) {
     /* Your CSS code for tablets here */
     .navbar-toggle{
-        display: hidden;
+        display: none;
     }
 }
 
