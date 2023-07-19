@@ -217,9 +217,10 @@ main hr {
     color: aqua;
 }
 
-.project-link:hover{
+.project-link:hover {
     color: green;
 }
+
 /* .project-card .btn {
     padding: 0.6em;
     background-color: black;
@@ -257,9 +258,11 @@ main hr {
     bottom: 1%;
     cursor: pointer;
 }
-.scroll-up img{
+
+.scroll-up img {
     border-radius: 50%;
 }
+
 .up-arrow {
     width: 3rem;
     height: 3rem;
@@ -354,66 +357,128 @@ footer .copyright a {
 /* Desktop styles */
 @media screen and (min-width: 1024px) {
     /* Your CSS code for desktop here */
-  }
-  
-  /* Tablet styles */
-  @media screen and (max-width: 1023px) and (min-width: 768px) {
+}
+
+/* Tablet styles */
+@media screen and (max-width: 1023px) and (min-width: 768px) {
     /* Your CSS code for tablets here */
-    
-  }
-  
-  /* Mobile styles */
-  @media screen and (max-width: 767px) {
+
+}
+
+/* Mobile styles */
+@media screen and (max-width: 767px) {
+
+    /* Hide the hamburger menu icon by default */
+    .navbar-links {
+        display: none;
+        font-size: 1.5rem;
+        cursor: pointer;
+    }
+
+    .navbar-links.active {
+        display: flex;
+        flex-direction: column;
+        background-color: #333;
+        position: absolute;
+        top: 60px;
+        right: 15px;
+        /* Adjust this value to position the mobile menu below the navbar */
+    }
+
+    .navbar-links.active li {
+        margin-right: 0;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .navbar-links.active a {
+        color: #fff;
+    }
+
     /* Your CSS code for mobile here */
-    .first-section{
+    .first-section {
         flex-direction: column-reverse;
         align-items: center;
         justify-content: center;
         overflow-x: hidden;
-        padding: 2px;
         margin: 1.25rem 0px;
     }
+
     .left-section {
         width: 85%;
     }
+
     .left-section div {
         margin: auto;
     }
-    .right-section{
+
+    .right-section {
         width: 70%;
         margin: auto;
         text-align: justify;
     }
-    .right-section img{
+
+    .right-section img {
         width: 90%;
     }
+
     /* Second Section */
-    .second-section h2{
+    .second-section h2 {
         margin-left: 3em;
         width: fit-content;
         margin: auto;
     }
 
+    .skills-container {
+        display: flex;
+
+    }
+
+    .skills-set-1 {
+        margin-right: 4px;
+        margin-left: 4px;
+    }
+
+    .icon {
+        height: 10rem;
+        width: 10rem;
+    }
+
+    .icon-card {
+        height: 10rem;
+        width: 10rem;
+    }
+
     /*Project Container */
-    .projects h2{
+    .projects {
+        max-width: 100%;
+        font-size: 0.7em;
+    }
+
+    .projects h2 {
         width: fit-content;
         margin: auto;
     }
-    .project-container{
+
+    .project-container {
         flex-direction: column;
     }
-    .project-container .project-card{
-        width: 80%;
-        
+
+    .project-container .project-card {
+        width: 85%;
+
     }
-    .view-all{
-        width: 17.6%;
+
+    .view-all {
+        width: 25%;
+        font-size: 1.2em;
     }
-    .footer{
+
+    .footer {
         display: none;
     }
-    .copyright{
+
+    .copyright {
         display: none;
     }
-  }
-  
+}

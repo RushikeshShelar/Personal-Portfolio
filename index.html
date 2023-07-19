@@ -19,8 +19,8 @@
                 Rushi's Portfolio
             </div>
             <div class="right">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
+                <ul class="navbar-links">
+                    <li><a href="index.html" >Home</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="certifi.html">Certifiations</a></li>
                     <li><a href="projects.html">Projects</a></li>
@@ -49,10 +49,10 @@
         </section>
         <hr>
         <section class="second-section skills">
+            <div class="skills-header">
+                <h2>My Top Skills</h2>
+            </div>
             <div class="skills-container">
-                <div class="skills-header">
-                    <h2>My Top Skills</h2>
-                </div>
                 <div class="skills-set-1">
                     <img src="assets/img/icons/icons8-html5.svg" alt="" class="icon icon-card">
                     <img src="assets/img/icons/icons8-css.svg" alt="" class="icon icon-card">
@@ -119,22 +119,7 @@
     </footer>
 
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
-    <!-- Setup and start animation! -->
-    <script>
-        var typed = new Typed('#element', {
-            strings: ['Student', 'Web Developer', 'Software Developer.',],
-            typeSpeed: 50,
-        });
-
-        var scrollUp = document.querySelector('#scroll-up');
-        scrollUp.addEventListener('click',() => {
-            window.scrollTo({
-                top:0,
-                left:0,
-                behavior: "smooth"
-            });
-        });
-    </script>
+    <script src="assets/scripts/index.js"></script>
 </body>
 
 </html>
