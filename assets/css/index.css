@@ -357,12 +357,17 @@ footer .copyright a {
 /* Desktop styles */
 @media screen and (min-width: 1024px) {
     /* Your CSS code for desktop here */
+    .navbar-toggle{
+    display: none;
+    }
 }
 
 /* Tablet styles */
 @media screen and (max-width: 1023px) and (min-width: 768px) {
     /* Your CSS code for tablets here */
-
+    .navbar-toggle{
+        display: hidden;
+    }
 }
 
 /* Mobile styles */
