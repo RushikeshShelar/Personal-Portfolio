@@ -1,6 +1,6 @@
 
 # My Portfolio Website
-##MAinatainence
+## Maintainence
 Adding Responsive Designs and Makin a React app.
 Currently Under Progress....
 
