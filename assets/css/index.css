@@ -32,6 +32,13 @@ body {
     color: var(--text-color);
 }
 
+/* Hiding the Input Arrows from Number Input */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
 /* Header Styling */
 .header {
     position: fixed;
