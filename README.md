@@ -1,11 +1,10 @@
 
 # My Portfolio Website
-## MAinatainence
-Making a React app and Improvising Content.
+##MAinatainence
+Adding Responsive Designs and Makin a React app.
 Currently Under Progress....
 
 
-## About My Website
 Showcase your skills, projects, and experience as a Computer Engineering student. Built with HTML, CSS, and JavaScript, this responsive website highlights your coding expertise and passion for technology. Keep it updated to impress potential employers and connect with the tech community.
 This repository contains the source code for my personal portfolio website. The website is designed to showcase my skills, projects, and experience as a Computer Engineering student.
 You can access my portfolio website by clicking [here](https://rushikeshshelar.github.io/Personal-Portfolio/).
@@ -25,16 +24,23 @@ You can access my portfolio website by clicking [here](https://rushikeshshelar.g
 - Easy to understand and modify codebase
 - Regular updates to reflect latest achievements and skills
 
+## Tools Used
+
+Below are are list of tools used, and the precise things they were used for:
+
+- [Icon8](https://icons8.com/) for animated icons and skills icons.
+- [Animate CSS](https://animate.style/) for bio text animation.
+ 
 ## Getting Started
 
 To view and run the website locally, follow these steps:
 1. Clone the repository: 
 ```bash
-git clone https://github.com/RushikeshShelar/Personal-Portfolio.git
+git clone https://github.com/RushikeshShelar/My-Portfolio-Website.git
 ```
 2. Navigate to the project directory: 
 ```bash
-cd Personal-Portfolio
+cd My-Portfolio-Website
 ```
 3. Open the index.html file in your preferred web browser.
 
@@ -56,8 +62,8 @@ Please adhere to this project's `code of conduct`.
 
  - Inspiration and design ideas from various portfolio websites
 - Thanks to the open-source community for their valuable contributions
-- [Codehal](https://www.youtube.com/@codehal)
--  [BoxIcons](https://boxicons.com/)
+- [CodeWithHarry](https://www.youtube.com/@CodeWithHarry)
+-  [Kallyas](https://kallyas.net/)
  - [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
 
 
